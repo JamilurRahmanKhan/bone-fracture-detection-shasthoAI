@@ -1,5 +1,7 @@
 import { useState, useEffect, useCallback, useMemo, useRef } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
+import Pricing from "../../Pricing/Pricing/Pricing";
+
 import { 
   Brain, 
   Menu, 
@@ -26,8 +28,8 @@ import ShasthoAILogoWhite from "../ShasthoAILogo/ShasthoAILogoWhite";
  * Authentication state - Toggle this to test different states
  * Set to false to see logged out state, true for logged in state
  */
-const IS_AUTHENTICATED = true;
-// const IS_AUTHENTICATED = false;
+// const IS_AUTHENTICATED = true;
+const IS_AUTHENTICATED = false;
 
 /**
  * Mock user data for demonstration
