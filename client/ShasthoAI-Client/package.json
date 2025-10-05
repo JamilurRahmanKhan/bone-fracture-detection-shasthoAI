@@ -13,8 +13,9 @@
     "localforage": "^1.10.0",
     "lucide-react": "^0.544.0",
     "match-sorter": "^8.1.0",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "next": "^15.5.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "react-router-dom": "^7.9.3",
     "sort-by": "^1.2.0"
   },
